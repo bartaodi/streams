@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 public class Main {
 
     public static void main(String[] args) {
-        
+
         List<String> myList = Arrays.asList("a1", "a2", "b1", "c2", "c1");
         /*List<String> cs = myList.stream().filter(a -> a.charAt(0) == 'c').
                 map(word -> word.substring(0, 1).toUpperCase() + word.substring(1)).sorted()
